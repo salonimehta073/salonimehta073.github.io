@@ -15,3 +15,6 @@ permalink: /projects/
 
 4. [Deutschplan — Devil's Plan-style German drills](/german/)
 > Five minutes a day of B1 German as a series of quick puzzle games. First game is *Fallschirm* — falling nouns, three buckets (der/die/das), race the clock. Built on the official Goethe B1 Wortliste (~1,500 gender-tagged nouns). Sentence-builder and Set-with-grammar coming next.
+
+5. [Nugget — one good idea a day](/nugget/)
+> One excerpt, framework, or thought worth keeping, added when a good one shows up. Tagged by category (life, science, tech, frameworks, self, creativity), sourced back to the book/essay/newsletter it came from. A minimal reading commonplace, in public.

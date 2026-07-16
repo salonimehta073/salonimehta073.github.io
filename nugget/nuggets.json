@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Nugget",
+    "sub": "One good idea a day — an excerpt, framework, or thought worth keeping."
+  },
+  "nuggets": [
+    {
+      "id": "2026-07-16",
+      "date": "2026-07-16",
+      "title": "Taste is a bet on what will still matter",
+      "tag": "creativity",
+      "body": "The only real test of taste is time. Not \"do people like this now\" but \"will this still repay attention in five years?\" What makes taste feel mysterious is that it's a compressed forecast — you're guessing which currents in the culture are transient and which are load-bearing. That's why taste can be trained but not taught: you have to watch enough things age.",
+      "source": "Robin Sloan, \"Notes on notes\" (newsletter, 2023)"
+    },
+    {
+      "id": "2026-07-15",
+      "date": "2026-07-15",
+      "title": "The best time to plant a tree is the boring middle",
+      "tag": "self",
+      "body": "Everyone remembers the sprint at the start and the crescendo at the end. Almost nothing important happens there. The middle — the boring, unwitnessed months where you keep going despite there being no obvious reason to — is where the compounding actually lives. Getting good at the middle is most of the game.",
+      "source": "Adapted from Morgan Housel, \"Same as Ever\" (2023)"
+    },
+    {
+      "id": "2026-07-14",
+      "date": "2026-07-14",
+      "title": "Chesterton's fence",
+      "tag": "frameworks",
+      "body": "\"In the matter of reforming things, as distinct from deforming them, there is one plain and simple principle; a principle which will probably be called a paradox. There exists in such a case a certain institution or law; let us say, for the sake of simplicity, a fence or gate erected across a road. The more modern type of reformer goes gaily up to it and says, 'I don't see the use of this; let us clear it away.' To which the more intelligent type of reformer will do well to answer: 'If you don't see the use of it, I certainly won't let you clear it away. Go away and think. Then, when you can come back and tell me that you do see the use of it, I may allow you to destroy it.'\"",
+      "source": "G.K. Chesterton, \"The Thing\" (1929)"
+    },
+    {
+      "id": "2026-07-13",
+      "date": "2026-07-13",
+      "title": "Sleep is not what you do at the end of the day",
+      "tag": "science",
+      "body": "The night is not a passive gap between two days. It's when the brain flushes metabolic waste, consolidates memory, and prunes synapses that didn't get used. Under-sleeping isn't like being a car with less gas — it's like being a car that never gets its oil changed. You can run, but the damage is accumulating in a place you can't see.",
+      "source": "Matthew Walker, \"Why We Sleep\" (2017)"
+    },
+    {
+      "id": "2026-07-12",
+      "date": "2026-07-12",
+      "title": "The map is not the territory",
+      "tag": "frameworks",
+      "body": "Every model of reality — a formula, a diagram, a mental shortcut — is a compression. Compressions throw away information on purpose. The trap is forgetting that: mistaking the tidy picture in your head for the messy thing it points at. When your model and the world disagree, the world is not the one that's wrong.",
+      "source": "Alfred Korzybski, paraphrased; popularized in \"Seeking Wisdom\" by Peter Bevelin (2003)"
+    },
+    {
+      "id": "2026-07-11",
+      "date": "2026-07-11",
+      "title": "Attention is a river you dig",
+      "tag": "self",
+      "body": "Attention isn't a fixed resource you spend. It's a habit of return. Every time you drag your mind back to what you were doing, you carve the channel a little deeper. The people who seem to have superhuman focus mostly just have older rivers. The comforting corollary: yours can still be dug.",
+      "source": "Adapted from Cal Newport, \"Deep Work\" (2016)"
+    },
+    {
+      "id": "2026-07-10",
+      "date": "2026-07-10",
+      "title": "Strong opinions, loosely held",
+      "tag": "frameworks",
+      "body": "Have a strong forecast about what will happen. Commit to it publicly. Then update the moment reality gives you a new data point, without ego, without a face-saving story about why you weren't really wrong. The strength is in the commitment; the looseness is in the update. Most people do only one half.",
+      "source": "Paul Saffo, \"Six Rules for Effective Forecasting\" (2007)"
+    },
+    {
+      "id": "2026-07-09",
+      "date": "2026-07-09",
+      "title": "Legibility hides the load-bearing parts",
+      "tag": "tech",
+      "body": "When a system is legible — clean org charts, tidy KPIs, neat processes — it's tempting to believe the legible parts are what runs it. Usually they aren't. What actually holds the thing up is the tangle of side-channel favors, tacit knowledge, and undocumented workarounds that the legible layer sits on top of. \"Rationalize\" the legible layer without noticing the tangle and the whole thing quietly stops working.",
+      "source": "James C. Scott, \"Seeing Like a State\" (1998)"
+    },
+    {
+      "id": "2026-07-08",
+      "date": "2026-07-08",
+      "title": "Two-way vs one-way doors",
+      "tag": "frameworks",
+      "body": "Some decisions are one-way doors: hard or impossible to reverse. These deserve slow, thorough deliberation. Most decisions are two-way doors: if you don't like what's on the other side, you can walk back. Treating a two-way door like a one-way door is a common and costly mistake — you burn a week deliberating something you could have discovered by trying it for an hour.",
+      "source": "Jeff Bezos, 2015 Amazon shareholder letter"
+    },
+    {
+      "id": "2026-07-07",
+      "date": "2026-07-07",
+      "title": "You are the average of the last five things you thought about",
+      "tag": "self",
+      "body": "The five-people cliché is downstream of something deeper: your mind is shaped by whatever it rehearses. If the last five things you thought hard about were grievances, that's the flavor of person you are today. If they were problems worth solving, that's who you are today. The lever isn't the friends. It's what you let your mind rehearse.",
+      "source": "Adapted from Marcus Aurelius, \"Meditations\", Book V"
+    },
+    {
+      "id": "2026-07-06",
+      "date": "2026-07-06",
+      "title": "The illusion of explanatory depth",
+      "tag": "science",
+      "body": "Ask someone how a zipper works, or a flush toilet, or a helicopter. They will confidently say they know. Then ask them to explain it step by step. Almost no one can. This gap — feeling like you understand something you actually don't — is called the illusion of explanatory depth, and it shows up everywhere: policy, code, relationships. The cure is cheap: try to explain the thing.",
+      "source": "Rozenblit & Keil, \"The misunderstood limits of folk science\" (2002)"
+    },
+    {
+      "id": "2026-07-05",
+      "date": "2026-07-05",
+      "title": "Design for the boring case",
+      "tag": "tech",
+      "body": "Every system will spend 95% of its life in its boring, unremarkable, default state. Optimizing for the flashy edge case — the demo, the peak-load day, the launch moment — is the most common way to ship something that quietly hurts every day it exists. Ask what the median Tuesday looks like. Design for that.",
+      "source": "Adapted from Rich Hickey, \"Simple Made Easy\" (Strange Loop 2011)"
+    },
+    {
+      "id": "2026-07-04",
+      "date": "2026-07-04",
+      "title": "The barbell strategy",
+      "tag": "frameworks",
+      "body": "Put most of your resources in something extremely safe. Put a small portion in something extremely risky. Avoid the middle. The middle looks prudent but combines the worst of both worlds — enough exposure to get hurt, not enough asymmetry to matter when it works. Applies to portfolios, careers, and how you spend a Saturday.",
+      "source": "Nassim Nicholas Taleb, \"Antifragile\" (2012)"
+    },
+    {
+      "id": "2026-07-03",
+      "date": "2026-07-03",
+      "title": "Write to find out what you think",
+      "tag": "creativity",
+      "body": "You do not usually know what you think before you write it. You think you do. Then you sit down, and the sentences you were going to write turn out to be hollow, and the ones that come out instead surprise you. Writing is not the transcription of a finished thought — it's the machinery by which a fuzzy feeling becomes a claim you can actually defend.",
+      "source": "Paul Graham, \"Putting Ideas Into Words\" (2022)"
+    },
+    {
+      "id": "2026-07-02",
+      "date": "2026-07-02",
+      "title": "Hyperbolic discounting",
+      "tag": "science",
+      "body": "Offered $100 now or $110 in a week, most people take the $100. Offered $100 in a year or $110 in a year and a week, almost everyone waits. It's the same one-week delay, evaluated inconsistently. That inconsistency is why you keep making the plan you know you'll break: the future self who has to execute it is a stranger, and you keep loading his calendar without asking.",
+      "source": "Ainslie, \"Picoeconomics\" (1992); popularized in Thaler & Sunstein, \"Nudge\""
+    }
+  ]
+}
