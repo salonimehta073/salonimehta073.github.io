@@ -18,3 +18,6 @@ permalink: /projects/
 
 5. [Nugget — one good idea a day](/nugget/)
 > One excerpt, framework, or thought worth keeping, added when a good one shows up. Tagged by category (life, science, tech, frameworks, self, creativity), sourced back to the book/essay/newsletter it came from. A minimal reading commonplace, in public.
+
+6. [Incrementality, interactive — how ad-measurement methods actually work](/incrementality/)
+> Set the ground truth yourself, then watch each measurement method try to recover it. First tab is Difference-in-Differences: a live simulator with parallel-trends and noise sliders, a signal-vs-noise decomposition, the 2×2 arithmetic spelled out, and a paste-your-own-series calculator. Synthetic geo lift, ITT, placebo, ghost bids, and MMM coming next.
