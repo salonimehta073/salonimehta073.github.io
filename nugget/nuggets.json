@@ -123,6 +123,78 @@
       "tag": "science",
       "body": "Offered $100 now or $110 in a week, most people take the $100. Offered $100 in a year or $110 in a year and a week, almost everyone waits. It's the same one-week delay, evaluated inconsistently. That inconsistency is why you keep making the plan you know you'll break: the future self who has to execute it is a stranger, and you keep loading his calendar without asking.",
       "source": "Ainslie, \"Picoeconomics\" (1992); popularized in Thaler & Sunstein, \"Nudge\""
+    },
+    {
+      "id": "nugget-016",
+      "date": "2026-07-31",
+      "title": "We see things as we are",
+      "tag": "self",
+      "body": "The uncomfortable premise of every disagreement: observation is not neutral. Every perception is filtered through what you're carrying — fatigue, wound, hope, hunger. Two people can watch the same conversation and remember two different conversations, and both remember accurately. What you notice about someone else is also a self-portrait.",
+      "source": "Anaïs Nin, \"Seduction of the Minotaur\" (1961); the idea has older roots, Nin's phrasing is the one that stuck"
+    },
+    {
+      "id": "nugget-017",
+      "date": "2026-08-01",
+      "title": "You become what you pretend to be",
+      "tag": "self",
+      "body": "\"We are what we pretend to be, so we must be careful about what we pretend to be.\" Vonnegut wrote this as the moral of a novel about a WWII propagandist who told himself he was only pretending to be a Nazi. The line is disarmingly literal — repeat a posture long enough and it stops being a posture. Applies to how you sound in meetings, how you write when tired, and what you laugh at when no one's watching.",
+      "source": "Kurt Vonnegut, \"Mother Night\" (1961), foreword"
+    },
+    {
+      "id": "nugget-018",
+      "date": "2026-08-02",
+      "title": "If this isn't nice, I don't know what is",
+      "tag": "life",
+      "body": "Vonnegut's Uncle Alex had a habit. When something ordinarily good was happening — lemonade under a tree, a cousin telling a story, nothing dramatic — he'd interrupt himself and say aloud, \"If this isn't nice, I don't know what is.\" Vonnegut said his uncle taught him that the moments worth noticing rarely announce themselves. You have to name them out loud or they pass through you unclaimed.",
+      "source": "Kurt Vonnegut, \"A Man Without a Country\" (2005)"
+    },
+    {
+      "id": "nugget-019",
+      "date": "2026-08-03",
+      "title": "If it doesn't come out on its own, don't",
+      "tag": "creativity",
+      "body": "\"if it doesn't come bursting out of you / in spite of everything, / don't do it. / unless it comes unasked out of your / heart and your mind and your mouth / and your gut, / don't do it.\" A caution against forcing what should be voluntary. If you have to talk yourself into the work every morning, that's information. Some of it means push through. Some of it means the wrong work.",
+      "source": "Charles Bukowski, \"So You Want to Be a Writer?\" (in \"Sifting Through the Madness for the Word, the Line, the Way\", 2003)"
+    },
+    {
+      "id": "nugget-020",
+      "date": "2026-08-04",
+      "title": "Devices deliver goods, but conceal the machinery",
+      "tag": "tech",
+      "body": "A convenience isn't neutral. The \"device paradigm\" — a phrase Sacasas borrows from philosopher Albert Borgmann — is that modern tools deliver a commodity (warmth, meals, entertainment, connection) while hiding the practice that used to produce it (chopping wood, cooking, storytelling, showing up). What we lose is invisible because it was never the point of the transaction. The question worth asking about any device: what am I no longer doing, and what did that doing used to be?",
+      "source": "L.M. Sacasas, \"The Convivial Society\" (newsletter), drawing on Albert Borgmann"
+    },
+    {
+      "id": "nugget-021",
+      "date": "2026-08-05",
+      "title": "Paleolithic emotions, medieval institutions, god-like technology",
+      "tag": "science",
+      "body": "\"The real problem of humanity is the following: we have Paleolithic emotions, medieval institutions, and god-like technology.\" Wilson's point isn't that any of the three is broken. It's that they were built in different centuries and don't fit together. Our reflexes are still tuned for small tribes and physical threats; our institutions for kingdoms; our tools now have planetary reach. Most of our worst failures live in the gaps.",
+      "source": "E.O. Wilson, Harvard debate (2009)"
+    },
+    {
+      "id": "nugget-022",
+      "date": "2026-08-06",
+      "title": "Folly is doing what you already know won't work",
+      "tag": "frameworks",
+      "body": "Historian Barbara Tuchman defined folly narrowly — not error, not bad luck, but pursuing a policy that was recognized as counterproductive in its own time, had a feasible alternative, and was continued anyway. From Troy to Vietnam, the same pattern: leaders keep escalating a course they can see failing, because reversing costs face. Most catastrophic decisions weren't made in ignorance. They were made by people who knew better.",
+      "source": "Barbara Tuchman, \"The March of Folly: From Troy to Vietnam\" (1984)"
+    },
+    {
+      "id": "nugget-023",
+      "date": "2026-08-07",
+      "title": "Civilization sits on a thin veneer",
+      "tag": "science",
+      "body": "Freud's argument in \"Civilization and Its Discontents\" is that civilization isn't the opposite of instinct — it's a lid on it. The rules that let strangers share a subway car are maintained by constant, mostly unconscious effort, and they don't erase the underlying impulses; they contain them. Which is why culture can look eternal for decades and then, under enough pressure, come apart in a week.",
+      "source": "Sigmund Freud, \"Civilization and Its Discontents\" (1930)"
+    },
+    {
+      "id": "nugget-024",
+      "date": "2026-08-08",
+      "title": "You are the rider, not the elephant",
+      "tag": "self",
+      "body": "Your intuitions decide, then your reasoning writes the press release. Haidt's metaphor: a small rider (conscious reasoning) sitting on a large elephant (moral intuition). The elephant leans a certain way for reasons the rider didn't authorize; the rider then invents a justification and calls it the reason. Most arguments are two riders shouting at each other about elephants that were never going to change direction. Persuade the elephant or don't persuade at all.",
+      "source": "Jonathan Haidt, \"The Righteous Mind\" (2012)"
     }
   ]
 }
