@@ -4,14 +4,14 @@ author: Saloni
 title: Before we talk about incrementality
 comments_id: 5
 categories: Marketing
-tags: marketing
+tags: [marketing, analytics]
 ---
-
-![Who wants to be data-driven? Who wants to implement tracking?](/assets/who-wants-to-be-data-driven.jpeg)
 
 As a consultant (and in my eyes, a decent one), I often ask my audience "What are the biggest gaps in your measurement today?". It does sound like a simple enough question, but you'd be surprised at the number of times I'm met with complete silence or some version of 'incrementality'. I am not opposed to the latter camp, quite the contrary, but I think more often than not, advertisers don't really know what they would actually do with this magical number, even if they got it. Most advertisers can name methods that they don't have, but they can rarely spell out decisions that their measurement gap is preventing them from making. 78% of senior decision makers believe more than 10% of their spending is wasted because of insufficient measurement (Haus, 2026) while 75% say their core methods are not delivering (IAB, 2026). Question is, delivering what though?
 
 ### Measurement as an activity or strategy?
+
+![Who wants to be data-driven? Who wants to implement tracking?](/assets/who-wants-to-be-data-driven.jpeg)
 
 I think we can all safely agree that we have more tools, measurement solutions, dashboards and KPIs than ever before (just try to squint at [this graphic](https://app-na1.hubspotdocuments.com/documents/5912805/view/809114663?accessId=5562f3) if you don't agree). But it's also equally true that there is less clarity about what any of it is really for. Teams measure and track because platforms and vendors offer it; because it is expected to be data-driven at a workplace and because your reporting template says so. Another question that often gives this away is to ask what decision did the last measurement study change? Everyone knows that a study was presented. But "presented" is not the end game, right? If a study's endpoint is a slide - that's reporting and not decision-driving measurement. Gartner did a study in 2022 and concluded that analytics influences just a little above half of marketing decisions and the reasons to not do so are 1) cherry picking to fit prior opinions 2) decision makers not reading the presented slides/analysis and 3) relying on gut instinct.
 

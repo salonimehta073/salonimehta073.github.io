@@ -1,2 +1,8 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// Minima's default puts 80px ($spacing-unit * 2) above every section heading,
+// which reads as a large blank gap between sections. Halve it.
+.post-content {
+  h1, h2, h3 { margin-top: $spacing-unit; }
+}
