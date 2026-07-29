@@ -22,7 +22,7 @@
       <span class="nugget-today__tag" id="nugget-today-tag"></span>
     </p>
     <h2 class="nugget-today__title" id="nugget-today-title"></h2>
-    <p class="nugget-today__excerpt" id="nugget-today-excerpt"></p>
+    <div class="nugget-today__body" id="nugget-today-body"></div>
     <p class="nugget-today__foot">
       <span class="nugget-today__source" id="nugget-today-source"></span>
       <span class="nugget-today__more">all nuggets &rarr;</span>
@@ -48,13 +48,18 @@
     return MONTHS[m - 1] + ' ' + d + ', ' + p[0];
   }
 
-  // Mirrors firstSentence() in the app so the excerpt breaks at the same place.
-  function firstSentence(text) {
-    var match = text.match(/^[\s\S]*?[.!?]["”']?(?=\s|$)/);
-    if (!match) return text;
-    var s = match[0].trim();
-    if (s.length < 40 && text.length > 60) return text.slice(0, 180).trim() + '…';
-    return s;
+  // Bodies may hold several paragraphs separated by \n, same as the app does
+  // (see NuggetCard in nugget/app/src/App.tsx). textContent per paragraph, so
+  // nothing from the JSON is ever parsed as markup.
+  function renderBody(host, body) {
+    host.textContent = '';
+    body.split('\n').forEach(function (line) {
+      if (!line.trim()) return;
+      var p = document.createElement('p');
+      p.className = 'nugget-today__para';
+      p.textContent = line;
+      host.appendChild(p);
+    });
   }
 
   fetch('{{ "/nugget/nuggets.json" | relative_url }}', { cache: 'no-cache' })
@@ -83,7 +88,7 @@
       tag.className = 'nugget-today__tag nugget-today__tag--' + n.tag;
 
       document.getElementById('nugget-today-title').textContent = n.title;
-      document.getElementById('nugget-today-excerpt').textContent = firstSentence(n.body);
+      renderBody(document.getElementById('nugget-today-body'), n.body);
       document.getElementById('nugget-today-source').textContent = '— ' + n.source;
 
       document.getElementById('nugget-today').hidden = false;
