@@ -6,3 +6,108 @@
 .post-content {
   h1, h2, h3 { margin-top: $spacing-unit; }
 }
+
+// --- Today's nugget (homepage) -------------------------------------------
+// Compact companion to the featured panel in the Nugget app itself
+// (nugget/app/src/App.css). Same palette, same orange rail, less prose.
+
+.nugget-today {
+  margin: 8px 0 $spacing-unit;
+  border: 1px solid $border-color-01;
+  border-left: 3px solid #f66a0a;
+  border-radius: 3px;
+  background-color: #fafafa;
+
+  &[hidden] { display: none; }
+}
+
+.nugget-today__link {
+  display: block;
+  padding: 16px 20px 14px;
+  color: inherit;
+
+  &:visited { color: inherit; }
+
+  &:hover {
+    text-decoration: none;
+
+    .nugget-today__title { color: #f66a0a; }
+    .nugget-today__more { text-decoration: underline; }
+  }
+}
+
+.nugget-today__meta {
+  margin-bottom: 6px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: $brand-color;
+}
+
+.nugget-today__kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: #f66a0a;
+}
+
+.nugget-today__sep { margin: 0 6px; }
+
+.nugget-today__tag {
+  // Overridden per tag below; falls back to the site grey.
+  color: $brand-color;
+}
+
+.nugget-today__tag--life       { color: #2f9e6a; }
+.nugget-today__tag--science    { color: #2a7ae2; }
+.nugget-today__tag--tech       { color: #6b5bd1; }
+.nugget-today__tag--frameworks { color: #f66a0a; }
+.nugget-today__tag--self       { color: #d14b6c; }
+.nugget-today__tag--creativity { color: #b57e00; }
+
+.nugget-today__title {
+  margin: 0 0 6px;
+  @include relative-font-size(1.25);
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.nugget-today__excerpt {
+  margin: 0 0 10px;
+  @include relative-font-size(0.95);
+  line-height: 1.55;
+  color: #333;
+}
+
+.nugget-today__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 0;
+  font-size: $small-font-size;
+  color: $brand-color;
+}
+
+.nugget-today__more {
+  flex-shrink: 0;
+  color: $link-base-color;
+}
+
+@include media-query($on-palm) {
+  .nugget-today__link { padding: 14px 16px 12px; }
+  .nugget-today__foot { justify-content: flex-start; }
+}
+
+// The homepage now has two sections, so its post list gets a heading. Minima's
+// default 1.75rem is louder than the nugget above it; pull it back to a divider.
+.home .post-list-heading {
+  @include relative-font-size(1.1);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: $brand-color-dark;
+  padding-bottom: 8px;
+  border-bottom: 1px solid $border-color-01;
+}

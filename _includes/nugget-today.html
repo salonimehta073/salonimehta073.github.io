@@ -1,0 +1,93 @@
+{% comment %}
+  Today's nugget, surfaced on the homepage.
+
+  Rendered client-side rather than at build time on purpose: nuggets.json is
+  seeded with future-dated entries, and the app only reveals one once its date
+  arrives (see nugget/app/src/nuggets.ts). A Liquid render would freeze on
+  whichever day GitHub Pages last built the site, so the same date <= today
+  rule is applied in the browser against the app's own JSON. One source of
+  truth, no rebuild needed to advance the day.
+
+  The section stays hidden unless a nugget is actually available, so a failed
+  fetch or an exhausted feed leaves no empty panel behind.
+{% endcomment %}
+
+<section class="nugget-today" id="nugget-today" hidden>
+  <a class="nugget-today__link" href="{{ '/nugget/' | relative_url }}">
+    <p class="nugget-today__meta">
+      <span class="nugget-today__kicker" id="nugget-today-kicker">Today's nugget</span>
+      <span class="nugget-today__sep" aria-hidden="true">&middot;</span>
+      <time class="nugget-today__date" id="nugget-today-date"></time>
+      <span class="nugget-today__sep" aria-hidden="true">&middot;</span>
+      <span class="nugget-today__tag" id="nugget-today-tag"></span>
+    </p>
+    <h2 class="nugget-today__title" id="nugget-today-title"></h2>
+    <p class="nugget-today__excerpt" id="nugget-today-excerpt"></p>
+    <p class="nugget-today__foot">
+      <span class="nugget-today__source" id="nugget-today-source"></span>
+      <span class="nugget-today__more">all nuggets &rarr;</span>
+    </p>
+  </a>
+</section>
+
+<script>
+(function () {
+  var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+  function localDateString() {
+    var d = new Date();
+    return d.getFullYear() + '-' +
+      String(d.getMonth() + 1).padStart(2, '0') + '-' +
+      String(d.getDate()).padStart(2, '0');
+  }
+
+  function formatDate(iso) {
+    var p = iso.split('-');
+    var m = Number(p[1]), d = Number(p[2]);
+    if (!p[0] || !m || !d) return iso;
+    return MONTHS[m - 1] + ' ' + d + ', ' + p[0];
+  }
+
+  // Mirrors firstSentence() in the app so the excerpt breaks at the same place.
+  function firstSentence(text) {
+    var match = text.match(/^[\s\S]*?[.!?]["”']?(?=\s|$)/);
+    if (!match) return text;
+    var s = match[0].trim();
+    if (s.length < 40 && text.length > 60) return text.slice(0, 180).trim() + '…';
+    return s;
+  }
+
+  fetch('{{ "/nugget/nuggets.json" | relative_url }}', { cache: 'no-cache' })
+    .then(function (res) {
+      if (!res.ok) throw new Error(res.status);
+      return res.json();
+    })
+    .then(function (data) {
+      var today = localDateString();
+      var visible = (data.nuggets || [])
+        .filter(function (n) { return n.date <= today; })
+        .sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+
+      var n = visible[0];
+      if (!n) return; // nothing unlocked yet — leave the section hidden
+
+      document.getElementById('nugget-today-kicker').textContent =
+        n.date === today ? "Today's nugget" : 'Latest nugget';
+
+      var date = document.getElementById('nugget-today-date');
+      date.textContent = formatDate(n.date);
+      date.setAttribute('datetime', n.date);
+
+      var tag = document.getElementById('nugget-today-tag');
+      tag.textContent = n.tag;
+      tag.className = 'nugget-today__tag nugget-today__tag--' + n.tag;
+
+      document.getElementById('nugget-today-title').textContent = n.title;
+      document.getElementById('nugget-today-excerpt').textContent = firstSentence(n.body);
+      document.getElementById('nugget-today-source').textContent = '— ' + n.source;
+
+      document.getElementById('nugget-today').hidden = false;
+    })
+    .catch(function () { /* leave the section hidden */ });
+})();
+</script>

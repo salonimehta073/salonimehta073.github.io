@@ -6,4 +6,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+# Labels the post list, so it reads as its own section below today's nugget.
+list_title: Writing
 ---

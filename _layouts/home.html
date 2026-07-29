@@ -9,6 +9,7 @@ layout: default
 
   {{ content }}
 
+  {%- include nugget-today.html -%}
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
