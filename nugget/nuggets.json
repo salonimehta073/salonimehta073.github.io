@@ -195,6 +195,246 @@
       "tag": "self",
       "body": "Your intuitions decide, then your reasoning writes the press release. Haidt's metaphor: a small rider (conscious reasoning) sitting on a large elephant (moral intuition). The elephant leans a certain way for reasons the rider didn't authorize; the rider then invents a justification and calls it the reason. Most arguments are two riders shouting at each other about elephants that were never going to change direction. Persuade the elephant or don't persuade at all.",
       "source": "Jonathan Haidt, \"The Righteous Mind\" (2012)"
+    },
+    {
+      "id": "nugget-025",
+      "date": "2026-08-09",
+      "title": "How we spend our days is how we spend our lives",
+      "tag": "life",
+      "body": "A schedule is not bureaucratic overhead on a life — it is the life. Dillard: \"How we spend our days is, of course, how we spend our lives. What we do with this hour, and that one, is what we are doing.\" The uncomfortable part is that this turns the vague plan to someday become a different kind of person into a testable claim. Look at the hours. That is the answer.",
+      "source": "Annie Dillard, \"The Writing Life\" (1989)"
+    },
+    {
+      "id": "nugget-026",
+      "date": "2026-08-10",
+      "title": "The easiest person to fool",
+      "tag": "science",
+      "body": "\"The first principle is that you must not fool yourself — and you are the easiest person to fool.\" Feynman was describing cargo cult science: work with all the outward form of rigor and none of the substance. The tell is not that you lack data. It is that every analysis you run happens to confirm the thing you already wanted to ship.",
+      "source": "Richard Feynman, \"Cargo Cult Science\" (Caltech commencement address, 1974)"
+    },
+    {
+      "id": "nugget-027",
+      "date": "2026-08-11",
+      "title": "Your one wild and precious life",
+      "tag": "life",
+      "body": "The poem spends most of its length watching a grasshopper eat sugar out of her hand — the kind of attention that looks like doing nothing. Then it turns and asks: \"Tell me, what is it you plan to do / with your one wild and precious life?\" The force of the question comes from what precedes it. She earned the right to ask it by having paid attention first.",
+      "source": "Mary Oliver, \"The Summer Day\" (in \"House of Light\", 1990)"
+    },
+    {
+      "id": "nugget-028",
+      "date": "2026-08-12",
+      "title": "Invert, always invert",
+      "tag": "frameworks",
+      "body": "Munger took it from the mathematician Jacobi: hard problems are often best attacked backwards. Do not ask how to build a great career — ask what reliably destroys one, then avoid that. Avoiding stupidity is easier than achieving brilliance, and the list of ways to fail is usually shorter, more concrete, and far better documented than the list of ways to win.",
+      "source": "Charlie Munger, collected in \"Poor Charlie's Almanack\" (2005)"
+    },
+    {
+      "id": "nugget-029",
+      "date": "2026-08-13",
+      "title": "Nobody works out the value of time",
+      "tag": "life",
+      "body": "Seneca's complaint is that we guard money and property carefully while letting anyone at all help themselves to our hours: men are thrifty in protecting private property, but as soon as it comes to squandering time they are most wasteful of the one thing about which it is right to be stingy. Two thousand years later, the meeting invite is free to send and expensive to accept.",
+      "source": "Seneca, \"On the Shortness of Life\" (c. 49 AD)"
+    },
+    {
+      "id": "nugget-030",
+      "date": "2026-08-14",
+      "title": "The gap between taste and ability",
+      "tag": "creativity",
+      "body": "Everyone who does creative work starts with good taste and bad output, and the gap between the two is where most people quit. Glass's point is that the gap is not evidence you lack talent — it is the normal condition of a beginner whose judgment is working correctly. The only way through is volume: work on a deadline, finish things, let the ability catch up to the taste.",
+      "source": "Ira Glass, on storytelling (interview series, 2009)"
+    },
+    {
+      "id": "nugget-031",
+      "date": "2026-08-15",
+      "title": "Conway's Law",
+      "tag": "tech",
+      "body": "\"Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations.\" Your architecture diagram is a picture of your org chart whether you intended it to be or not. Which means some technical problems have no technical fix — the seam in the software is sitting exactly where two teams do not talk.",
+      "source": "Melvin Conway, \"How Do Committees Invent?\" (Datamation, 1968)"
+    },
+    {
+      "id": "nugget-032",
+      "date": "2026-08-16",
+      "title": "The most common regret",
+      "tag": "life",
+      "body": "A palliative care nurse wrote down what people said in their final weeks. The regret that surfaced most was not about money, work, or risks not taken: \"I wish I'd had the courage to live a life true to myself, not the life others expected of me.\" Notice it is not a regret about outcomes. It is a regret about whose approval was being optimized for the whole time.",
+      "source": "Bronnie Ware, \"The Top Five Regrets of the Dying\" (2011)"
+    },
+    {
+      "id": "nugget-033",
+      "date": "2026-08-17",
+      "title": "The dichotomy of control",
+      "tag": "self",
+      "body": "Epictetus opens the Enchiridion by sorting the world into two piles: what is up to you, and what is not. Your judgments and your actions go in the first pile. Your reputation, your body, other people, and how any of it turns out go in the second. Most suffering, he argues, comes from filing something into the wrong pile — and then being indignant when it will not obey.",
+      "source": "Epictetus, \"Enchiridion\" (c. 125 AD)"
+    },
+    {
+      "id": "nugget-034",
+      "date": "2026-08-18",
+      "title": "When a measure becomes a target",
+      "tag": "science",
+      "body": "\"When a measure becomes a target, it ceases to be a good measure.\" Goodhart made the point about monetary policy; this crisp phrasing is Marilyn Strathern's. The mechanism is plain: a metric is useful because it correlates with something you actually care about, and the moment people are rewarded on the metric they optimize the correlation away. The number keeps climbing. The thing it stood for does not.",
+      "source": "Charles Goodhart (1975); phrasing from Marilyn Strathern, \"Improving ratings\" (1997)"
+    },
+    {
+      "id": "nugget-035",
+      "date": "2026-08-19",
+      "title": "The last of the human freedoms",
+      "tag": "life",
+      "body": "Frankl watched people in the camps lose everything a life is normally assembled out of — work, family, name, health. What he claims survived is narrower and stranger than optimism: \"Everything can be taken from a man but one thing: the last of the human freedoms — to choose one's attitude in any given set of circumstances.\" Not control over what happens. Control over what you make of it.",
+      "source": "Viktor Frankl, \"Man's Search for Meaning\" (1946)"
+    },
+    {
+      "id": "nugget-036",
+      "date": "2026-08-20",
+      "title": "Debugging is twice as hard as writing",
+      "tag": "tech",
+      "body": "\"Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?\" The implication is unflattering to anyone who enjoys being clever: the ceiling on how sophisticated your code should be is set by your worst debugging day, not your best writing day.",
+      "source": "Kernighan & Plauger, \"The Elements of Programming Style\" (1974)"
+    },
+    {
+      "id": "nugget-037",
+      "date": "2026-08-21",
+      "title": "Inspiration is for amateurs",
+      "tag": "creativity",
+      "body": "\"Inspiration is for amateurs — the rest of us just show up and get to work.\" Close's argument is that waiting for a good idea has the causality backwards: ideas arrive as a byproduct of working, not as a precondition for starting. Every artist he knew who was any good had a practice rather than a muse. Sit down, begin badly, and let the work tell you what it wants to be.",
+      "source": "Chuck Close, in interviews (widely collected)"
+    },
+    {
+      "id": "nugget-038",
+      "date": "2026-08-22",
+      "title": "Failures of kindness",
+      "tag": "life",
+      "body": "Asked to give graduating students advice, Saunders named something smaller than a wasted year or an unrisked risk: \"What I regret most in my life are failures of kindness. Those moments when another human being was there, in front of me, suffering, and I responded... sensibly. Reservedly. Mildly.\" The regret is not cruelty. It is the small, entirely defensible withholding.",
+      "source": "George Saunders, Syracuse University convocation address (2013)"
+    },
+    {
+      "id": "nugget-039",
+      "date": "2026-08-23",
+      "title": "Regression to the mean looks like teaching",
+      "tag": "science",
+      "body": "Israeli flight instructors told Kahneman that praising a cadet made the next flight worse and criticizing one made it better. Both were illusions. An unusually good flight tends to be followed by a more average one no matter what you say, and the reverse. Wherever performance is noisy, punishment appears to work and reward appears to backfire — and the feedback teaches precisely the wrong lesson.",
+      "source": "Daniel Kahneman, \"Thinking, Fast and Slow\" (2011)"
+    },
+    {
+      "id": "nugget-040",
+      "date": "2026-08-24",
+      "title": "Bird by bird",
+      "tag": "life",
+      "body": "Lamott's brother, ten years old, had three months to write a report on birds and had started the night before it was due. He sat paralyzed at the kitchen table, surrounded by unopened books. Their father sat down beside him and said: \"Bird by bird, buddy. Just take it bird by bird.\" It is not really a productivity technique. It is the only way anything large has ever been done.",
+      "source": "Anne Lamott, \"Bird by Bird\" (1994)"
+    },
+    {
+      "id": "nugget-041",
+      "date": "2026-08-25",
+      "title": "You will never clear the decks",
+      "tag": "self",
+      "body": "The plan is always to get on top of things first and then start living properly. Burkeman's point is that this day never arrives — not because you are inefficient, but because clearing the decks reliably generates more deck. Finite time is not a problem to be solved; it is the permanent condition. Which means the important thing has to happen inside the mess, or it does not happen.",
+      "source": "Oliver Burkeman, \"Four Thousand Weeks\" (2021)"
+    },
+    {
+      "id": "nugget-042",
+      "date": "2026-08-26",
+      "title": "Gall's Law",
+      "tag": "tech",
+      "body": "\"A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work.\" Gall wrote it as satire of systems thinking, which is probably why it keeps being right. You cannot start at the finished architecture. You can only grow one from something small that already runs.",
+      "source": "John Gall, \"Systemantics\" (1975)"
+    },
+    {
+      "id": "nugget-043",
+      "date": "2026-08-27",
+      "title": "Washing the dishes to wash the dishes",
+      "tag": "life",
+      "body": "There are two ways to wash the dishes, he writes: to get clean dishes, or to wash the dishes. If you hurry through them to reach your cup of tea, you are not alive during the dishes — and you will not be alive during the tea either, because by then you will be thinking about whatever follows it. The practice is not learning to enjoy chores. It is noticing you are only ever in one place.",
+      "source": "Thich Nhat Hanh, \"The Miracle of Mindfulness\" (1975)"
+    },
+    {
+      "id": "nugget-044",
+      "date": "2026-08-28",
+      "title": "Leverage points",
+      "tag": "frameworks",
+      "body": "Meadows ranked the places you can intervene in a system, weakest to strongest. Adjusting numbers — budgets, taxes, thresholds — sits near the bottom, and it is where nearly all the effort goes. Near the top: the rules, who gets to write them, and the goal the whole system is aimed at. Highest of all is the paradigm the goal came out of. Most reform is a fight over parameters.",
+      "source": "Donella Meadows, \"Leverage Points: Places to Intervene in a System\" (1999)"
+    },
+    {
+      "id": "nugget-045",
+      "date": "2026-08-29",
+      "title": "Go a little further out than you can stand",
+      "tag": "creativity",
+      "body": "Bowie on staying interesting: \"If you feel safe in the area you're working in, you're not working in the right area. Always go a little further into the water than you feel you're capable of being in. Go a little bit out of your depth, and when you don't feel that your feet are quite touching the bottom, you're just about in the right place to do something exciting.\"",
+      "source": "David Bowie, interview (1997)"
+    },
+    {
+      "id": "nugget-046",
+      "date": "2026-08-30",
+      "title": "Live the questions",
+      "tag": "life",
+      "body": "A young poet wrote to Rilke asking whether his work was any good. Rilke declined to answer that, and offered something harder instead: \"Be patient toward all that is unsolved in your heart and try to love the questions themselves.\" The urge to resolve an open question quickly is often just discomfort with not knowing. Some questions are meant to be lived in for years.",
+      "source": "Rainer Maria Rilke, \"Letters to a Young Poet\" (1929)"
+    },
+    {
+      "id": "nugget-047",
+      "date": "2026-08-31",
+      "title": "Be conservative in what you send",
+      "tag": "tech",
+      "body": "\"Be conservative in what you do, be liberal in what you accept from others.\" It is much of why the early internet worked: each implementation stayed strict about its own output and forgiving of everyone else's input, so the network tolerated a thousand slightly-wrong participants. The tension is that being liberal in what you accept is also how ambiguity, and eventually incompatibility, creeps in.",
+      "source": "Jon Postel, RFC 761 (1980)"
+    },
+    {
+      "id": "nugget-048",
+      "date": "2026-09-01",
+      "title": "Safety is not what people want at the end",
+      "tag": "life",
+      "body": "Gawande found that medicine optimizes the last years of life for safety and duration, while the people living them consistently want something else: to keep authoring their own story, even at some cost to both. Nursing homes are designed around the fears of the children rather than the priorities of the residents. The question is not how to keep someone alive. It is what makes a day worth having.",
+      "source": "Atul Gawande, \"Being Mortal\" (2014)"
+    },
+    {
+      "id": "nugget-049",
+      "date": "2026-09-02",
+      "title": "Why most published findings are false",
+      "tag": "science",
+      "body": "Ioannidis worked through the arithmetic: given small samples, small effects, flexible analysis, and a field where only positive results get published, most published findings in a literature will be false even if every researcher is honest. No fraud is required — the structure alone does it. Which is why one striking study is weak evidence, however good the journal it appeared in.",
+      "source": "John Ioannidis, \"Why Most Published Research Findings Are False\" (2005)"
+    },
+    {
+      "id": "nugget-050",
+      "date": "2026-09-03",
+      "title": "Scenius",
+      "tag": "creativity",
+      "body": "Eno coined \"scenius\" for what the lone-genius story leaves out: the scene. Renaissance Florence and 1970s New York did not happen to contain clusters of unusual individuals by coincidence — they produced conditions where ordinary talent got mutually amplified, where standards were visible and the competition was close at hand. If you want to get better, the lever is often which room you are in.",
+      "source": "Brian Eno, \"A Year with Swollen Appendices\" (1996)"
+    },
+    {
+      "id": "nugget-051",
+      "date": "2026-09-04",
+      "title": "Every stroke leaves a scar",
+      "tag": "self",
+      "body": "James on habit, in 1890, well before any of the modern literature: \"We are spinning our own fates, good or evil... Every smallest stroke of virtue or of vice leaves its never-so-little scar.\" Nothing is wasted or lost in the nervous system. The drunken Rip van Winkle may excuse each lapse to himself, but among the cells the counting is going on regardless. Character is accumulated repetition.",
+      "source": "William James, \"The Principles of Psychology\" (1890)"
+    },
+    {
+      "id": "nugget-052",
+      "date": "2026-09-05",
+      "title": "We tell ourselves stories in order to live",
+      "tag": "creativity",
+      "body": "Didion states it flatly in the opening line, then spends the essay dismantling it. We impose narrative on random data — the shifting phantasmagoria that is actual experience — because we cannot live inside the randomness. The stories are neither optional nor reliable, both at once. Worth remembering whenever your own account of your year comes out unusually coherent.",
+      "source": "Joan Didion, \"The White Album\" (1979)"
+    },
+    {
+      "id": "nugget-053",
+      "date": "2026-09-06",
+      "title": "Amara's Law",
+      "tag": "tech",
+      "body": "\"We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.\" Both errors run at once, which is why the discourse is reliably wrong in one direction and then wrong in the other. The hype is real and premature; the backlash that follows is also real and premature. The thing usually arrives late, then goes further than anyone claimed it would.",
+      "source": "Roy Amara, Institute for the Future (c. 1970s)"
+    },
+    {
+      "id": "nugget-054",
+      "date": "2026-09-07",
+      "title": "Plans are worthless, planning is everything",
+      "tag": "frameworks",
+      "body": "\"Plans are worthless, but planning is everything.\" Eisenhower, who had some standing on the subject, meant that the document will not survive contact with events — but the act of producing it is what builds the shared understanding you then improvise from. The value was never the artifact. It is that afterwards everyone knows the terrain, and knows how the others think.",
+      "source": "Dwight D. Eisenhower, remarks to the National Defense Executive Reserve (1957)"
     }
   ]
 }
