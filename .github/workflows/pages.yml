@@ -1,0 +1,68 @@
+# Build and deploy saloni.xyz.
+#
+# Runs on every push, and on a daily cron so future-dated posts publish on
+# their own date without needing a push that day. Jekyll's default
+# `future: false` skips posts dated later than the build's clock, so a post
+# dated 2026-08-15 becomes visible the first time this workflow runs on or
+# after 2026-08-15 06:00 UTC. Nothing to schedule per-post.
+#
+# Ships everything under the master branch through `jekyll build` — same
+# output that GitHub Pages' legacy branch-based build produces, but on a
+# schedule this repo controls.
+
+name: Deploy site
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    # Daily at 06:00 UTC. Adjust if you want a different publish time —
+    # a post dated 2026-08-15 goes live the next run at or after that instant.
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
+
+# Two runs must not deploy on top of each other. Skip anything queued behind
+# a newer commit, but let a running deploy finish rather than being cancelled
+# mid-way (that can leave Pages in a half-updated state).
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        env:
+          JEKYLL_ENV: production
+        # Use configure-pages's computed base_path. For a user site
+        # (saloni.xyz served from salonimehta073.github.io master), this
+        # resolves to empty — same as the existing branch-based build.
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
