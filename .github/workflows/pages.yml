@@ -16,9 +16,14 @@ on:
   push:
     branches: [master]
   schedule:
-    # Daily at 06:00 UTC. Adjust if you want a different publish time —
-    # a post dated 2026-08-15 goes live the next run at or after that instant.
+    # A post dated YYYY-MM-DD goes live on the first run at or after 00:00
+    # on that date, so these slots are the available publish times.
+    #   06:00 UTC — morning (07:00 CET / 08:00 CEST)
+    #   13:00 UTC — 15:00 CEST, i.e. 3pm German summer time
+    # Note these are UTC and do NOT shift with European DST: in winter
+    # (CET, UTC+1) the second slot lands at 14:00 local, not 15:00.
     - cron: '0 6 * * *'
+    - cron: '0 13 * * *'
   workflow_dispatch: {}
 
 # Two runs must not deploy on top of each other. Skip anything queued behind
