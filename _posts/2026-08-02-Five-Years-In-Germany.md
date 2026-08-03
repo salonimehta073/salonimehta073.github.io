@@ -17,7 +17,7 @@ tags: [personal]
 
 First, close that Reddit tab.
 
-I say this with love, and as someone who has spent a lot of time responding to ragebaiting comments on posts by Indian students or job seekers there. "*Indian, 5 YOE, offer of 65k in Munich, is this good enough?*". There is a worrying number of people on those subreddits who seem to be there specifically to be unpleasant about Indians, pass unhelpful, toxic comments and overall discourage the poster from every reaching the shores of Germany. Same for the Facebook groups, the LinkedIn DMs, the WhatsApp forwards. "*I earn 40 lakhs, I have an offer of 70k EUR, does it make sense?*" Nobody can answer that for you. The question is whether YOU want this life, and there are exactly 0 strangers on the internet who know anything about you.
+I say this with love, and as someone who's spent a lot of time replying to the ragebait under posts by Indian students and job seekers. There's a worrying number of people in those subreddits who seem to be there specifically to be unpleasant about Indians. Same for the Facebook groups, the LinkedIn DMs, the WhatsApp forwards. "*Indian, 5 YOE, offer of 65k in Munich, is this good enough?*" or "*I earn 40 lakhs, I have an offer of 70k EUR, does it make sense?*" And the replies are hostile, or useless, or both, and mostly written to make the person feel stupid for asking. I get these questions too, in my LinkedIn or Reddit DMs. The thing is that no one can answer these questions for you. The question is whether YOU want this life, and there are exactly 0 strangers on the internet who know anything about you.
 
 Anyway. Here's my experience (which is one data point), and I suggest you treat it as such.
 
