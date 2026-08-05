@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Curious and scrappy. Background in marketing analytics and building online marketing businesses. Passionate about tech, product, marketing and businesses of the internet economy. 
+Marketing analytics in Munich. My day job is advertising measurement: incrementality tests, geo experiments, MMMs, customer/marketing analytics in general.
+
+This site is where I build things to force myself to learn. Check my [projects](/projects/) section. More than 10 years across ad tech, retail, and consulting before this.
 
 ![Sal2](/assets/Sal2.png)
